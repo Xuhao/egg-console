@@ -22,12 +22,12 @@ Node 10+ 支持 top-level await，需添加`--experimental-repl-await`选项。
 
 ## 使用
 
-支持`app`，`ctx`
+支持`app`，`ctx` 变量, Node 10+ 开启`--experimental-repl-await`后可以直接使用`await`。
 
 ```shell
 $ npm run console
 
-> webmd-api@1.0.0 console /Users/xuhao/Work/webmd/api
+> web-api@1.0.0 console /Users/Xuhao/Workspace/web-api
 > node --experimental-repl-await node_modules/egg-console/lib/index.js
 
 > app.name
