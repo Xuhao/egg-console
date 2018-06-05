@@ -1,0 +1,50 @@
+{
+  "name": "egg-console",
+  "version": "1.0.0",
+  "description": "Rails-like console for eggjs",
+  "main": "./lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "lint": "eslint src",
+    "build": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
+    "prepare": "npm run clean && npm run build"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xuhao/egg-console.git"
+  },
+  "keywords": [
+    "eggjs",
+    "egg-console"
+  ],
+  "author": "Xuhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xuhao/egg-console/issues"
+  },
+  "homepage": "https://github.com/Xuhao/egg-console#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.1.3",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-egg": "^7.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "egg": "^2.8.1"
+  },
+  "peerDependencies": {
+    "egg": "^2.x"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint-config-egg",
+  "rules": {
+    "import/prefer-default-export": 0
+  }
+}
