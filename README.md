@@ -4,7 +4,7 @@ Rails-like console for eggjs
 
 ## 安装
 
-    npm i @xuhao/egg-console --save
+    npm i @rubyfans/egg-console --save-dev
 
 ## 在package.json添加命令
 
@@ -13,9 +13,9 @@ Node 10+ 支持 top-level await，需添加`--experimental-repl-await`选项。
 ```diff
   "scripts": {
     /* node >= 10 */
-+   "console": "node --experimental-repl-await node_modules/egg-console/lib/index.js",
++   "console": "node --experimental-repl-await node_modules/@rubyfans/egg-console/lib/index.js",
     /* node < 10 */
-+   "console": "node node_modules/egg-console/lib/index.js",
++   "console": "node node_modules/@rubyfans/egg-console/lib/index.js",
     ....
 }
 ```
@@ -28,7 +28,7 @@ Node 10+ 支持 top-level await，需添加`--experimental-repl-await`选项。
 $ npm run console
 
 > web-api@1.0.0 console /Users/Xuhao/Workspace/web-api
-> node --experimental-repl-await node_modules/egg-console/lib/index.js
+> node --experimental-repl-await node_modules/@rubyfans/egg-console/lib/index.js
 
 > app.name
 web-api
