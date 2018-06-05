@@ -1,5 +1,5 @@
 {
-  "name": "egg-console",
+  "name": "@xuhao/egg-console",
   "version": "1.0.0",
   "description": "Rails-like console for eggjs",
   "main": "./lib/index.js",
