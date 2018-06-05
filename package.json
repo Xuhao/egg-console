@@ -1,6 +1,6 @@
 {
-  "name": "@xuhao/egg-console",
-  "version": "1.0.0",
+  "name": "@rubyfans/egg-console",
+  "version": "1.0.1",
   "description": "Rails-like console for eggjs",
   "main": "./lib/index.js",
   "scripts": {
