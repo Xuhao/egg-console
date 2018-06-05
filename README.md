@@ -4,7 +4,7 @@ Rails-like console for eggjs
 
 ## 安装
 
-    npm i @rubyfans/egg-console --save
+    npm i @rubyfans/egg-console --save-dev
 
 ## 在package.json添加命令
 
